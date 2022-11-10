@@ -37,6 +37,6 @@ workflows:
     jobs:
       - say-hello-workflow/run
       - say-hello
-      - say-bye
+      - say-bye:
         requires:
           - say-hello
